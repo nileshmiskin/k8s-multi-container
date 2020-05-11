@@ -21,6 +21,7 @@ before_install:
 #script:
 #  - docker run -e CI=true nileshmiskin/react-test npm test
 
+language: generic
 deploy:
   provider: script
   script: bash ./deploy.sh
