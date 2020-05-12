@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: stephengrider/multi-worker
+        image: nileshmiskin/multi-worker
         env:
           - name: REDIS_HOST
             value: redis-cluster-ip-service
